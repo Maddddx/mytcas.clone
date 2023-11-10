@@ -1,0 +1,162 @@
+.intro {
+    align-items: center;
+    align-self: center;
+    color: #1a477f;
+}
+
+a {
+    text-decoration: none;
+}
+
+.reges-botton {
+    display: inline-flex;
+    align-items: center;
+    padding: .6em .9em;
+    border-radius: 3px;
+    margin-bottom: 1rem;
+    background-color: #1a477f;
+    background-image: linear-gradient(to right, #00a5ad, #00bad3, #006db6, #1598f0);
+    background-size: 300% 100%;
+    color: #fff;
+    border: none;
+    font-weight: 700;
+    & span {
+        padding-top: 2px;
+    }
+}
+
+.banner-logo {
+    margin-bottom: 16px;
+}
+
+.Banner {
+    padding: 80px 20px 0;
+    position: relative;
+    display: flex;
+}
+
+.sub-Banner {
+    padding: 20px 10px 0;
+    max-width: 400px;
+}
+
+.title h1 {
+    font-weight: 700;
+    z-index: 2;
+    position: relative;
+    margin-bottom: 20px;
+
+    & span {
+        display: block;
+    }
+}
+
+.th-text {
+    font-size: 1.3rem;
+    padding-top: 10px;
+}
+
+.search-box {
+    background-image: url(https://www.mytcas.com/img/search.webp);
+    background-size: auto 100%;
+    height: 240px;
+    background-position: bottom center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    margin-top: -40px;
+}
+
+.search-box a {
+    color: #fff;
+    font-size: .875em;
+    justify-content: center;
+}
+
+.search-box #search {
+    border: none;
+    margin: 0 auto;
+}
+
+.input-search {
+    margin: 0 auto;
+    margin-bottom: .6rem;
+}
+
+.uni-svg svg {
+    margin-right: 1rem;
+    margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+    line-height: 1.3;
+    margin-bottom: 1rem;
+}
+
+input[type=text] {
+    width: 300px;
+    padding: 10px 20px;
+    font-size: .87rem;
+}
+
+.search-box h2 {
+    font-size: 1rem;
+}
+
+@media(min-width: 1024px) {
+    .banner-logo {
+        width: 180px
+    }
+
+    .Banner {
+        padding: 120px 40px
+    }
+
+    .sub-Banner {
+        top: 180px;
+        right: 30px;
+        width: 38%
+    }
+}
+
+@media(min-width: 1200px) {
+    .Banner {
+        padding: 140px 40px 80px
+    }
+
+    .sub-Banner {
+        top: 140px;
+        right: 20px;
+        width: 500px
+    }
+}
+
+@media(min-width: 1400px) {
+    .intro {
+        background-position: top -20px right
+    }
+
+    .search-box {
+        background-position: top center
+    }
+}
+
+@media(min-width: 1800px) {
+    .intro {
+        background-position: top -50px right
+    }
+
+    .search-box {
+        background-position: center center
+    }
+}

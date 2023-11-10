@@ -1,0 +1,61 @@
+a {
+    color: #1a477f;
+}
+
+.nav {
+    text-align: center;
+    display: block;
+    min-height: 100vh;
+    width: 50px;
+    padding: 6px;
+    background-color: #fff;
+    z-index: 99;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.nav-list {
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+.nav-list li {
+    list-style: none;
+    height: 60px;
+    padding: 8px 0;
+}
+
+.nav-list svg {
+    height: 24px;
+    width: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.nav-logo a img {
+    width: 35px;
+}
+
+/*------------------------ nav --------------------------*/
+
+.home-section {
+    background-color: #ffffff;
+    position: relative;
+    min-height: 100vh;
+    top: 0;
+    left: 50px;
+    width: calc(100% - 50px);
+}
+
+.body {
+    background: #e9f4ff;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    background-image: url(https://www.mytcas.com/img/bg.webp);
+    background-size: 80% auto;
+    background-position: top right;
+    background-repeat: no-repeat;
+}
